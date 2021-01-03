@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <script defer src="../algorithmeJs/somme.js"></script>
+    <title>Somme</title>
+</head>
+<body>
+    <h1>Somme des chiffres saisie</h1>
+    <div class="presentation">
+        <h2>Saisissez vos chiffres, nous calculons vos données</h2>
+        <p>tapez 0 pour sortir du programme et obtenir la somme de vos chiffres saisie ainsi que la moyenne</p>
+    </div>
+
+    <div class="algo">
+        <label>Je calcul</label>
+        <input type="text" onfocus="this.value=''" name="saisie" id="saisie">
+        <button id="addition">+</button>
+        <p id="resultatAddition"></p>
+    </div>
+    <div class="masquer">
+        <p>Merci de votre visite !</p>
+        <p id="resultatSomme"></p>
+        <button id="recommencer">recommencer?</button>
+    </div>
+
+</body>
+</html>
